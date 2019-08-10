@@ -19,12 +19,12 @@
                 </li>
              </ul>
              <ul id="main-menu" class="navbar-nav ml-auto">
-                <li id="menu-item-899" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2 current_page_item menu-item-899 nav-item active"><a href="https://tjaerospace.com/about-us/" class="nav-link active">About Us</a></li>
-                <li id="menu-item-39" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39 nav-item"><a href="https://tjaerospace.com/what-we-do/" class="nav-link">What We Do</a></li>
-                <li id="menu-item-37" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37 nav-item"><a href="https://tjaerospace.com/capabilities/" class="nav-link">Capabilities</a></li>
-                <li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35 nav-item"><a href="https://tjaerospace.com/news/" class="nav-link">News</a></li>
-                <li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36 nav-item"><a href="https://tjaerospace.com/careers/" class="nav-link">Careers</a></li>
-                <li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38 nav-item"><a href="https://tjaerospace.com/contact-us/" class="nav-link">Contact Us</a></li>
+             <li id="menu-item-899" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2 current_page_item menu-item-899 nav-item active"><a href="https://tjaerospace.com/about-us/" class="nav-link active">{{trans('header.title1')}}</a></li>
+                <li id="menu-item-39" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39 nav-item"><a href="https://tjaerospace.com/what-we-do/" class="nav-link">{{trans('header.title2')}}</a></li>
+                <li id="menu-item-37" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37 nav-item"><a href="https://tjaerospace.com/capabilities/" class="nav-link">{{trans('header.title3')}}</a></li>
+                <li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35 nav-item"><a href="https://tjaerospace.com/news/" class="nav-link">{{trans('header.title4')}}</a></li>
+                <li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36 nav-item"><a href="https://tjaerospace.com/careers/" class="nav-link">{{trans('header.title5')}}</a></li>
+                <li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38 nav-item"><a href="https://tjaerospace.com/contact-us/" class="nav-link">{{trans('header.title6')}}</a></li>
              </ul>
           </div>
        </nav>
