@@ -5,7 +5,7 @@
     <main role="main" class="main">
         <section class="page-title-block">
 
-                                <img alt="Contact Us" class="cover" src="https://tjaerospace.com/wp-content/uploads/2019/07/tjaerospace-contact-1920x800.jpg" height="auto" width="auto">
+                                <img alt="Contact Us" class="cover" src={{asset('asset/wp-content/uploads/2019/07/tjaerospace-contact-1920x800.jpg')}} height="auto" width="auto">
             
             <div class="title-container">
                 <div class="container">
@@ -126,7 +126,8 @@
         };
 
         var contentString = '<div class="card">'+
-            '<img class="card-img-top img-fluid" src="https://tjaerospace.com/wp-content/themes/tjaerospace/assets/img/tj-aerospace-building.jpg" alt="TJ Aerospace, Inc.">'+
+            '<img class="card-img-top img-fluid" src=' + {{asset('asset/wp-content/themes/tjaerospace/assets/img/tj-aerospace-building.jpg')}}+
+            'alt="TJ Aerospace, Inc.">'+
             '<div class="card-body">'+
             '<h3>TJ Aerospace, Inc.</h3>'+
             '<p class="lead mb-1">12601 Monarch St.</p>'+

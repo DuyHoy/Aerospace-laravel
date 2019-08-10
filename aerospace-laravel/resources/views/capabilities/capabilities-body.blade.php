@@ -7,7 +7,7 @@
         
         <section class="page-title-block">
 
-                            <img alt="Capabilities" class="cover" src="https://tjaerospace.com/wp-content/uploads/2019/07/machine-floor-1920x800.jpg" height="auto" width="auto">
+                            <img alt="Capabilities" class="cover" src={{asset('asset/wp-content/uploads/2019/07/machine-floor-1920x800.jpg')}} height="auto" width="auto">
             
         
             <div class="title-container">
@@ -651,55 +651,55 @@ Small Business</p>
             
                 
                                     <div class="item">
-                        <img alt="Catia" class="img-fluid" src="https://tjaerospace.com/wp-content/uploads/2019/07/Catia.png">
+                        <img alt="Catia" class="img-fluid" src={{asset('asset/wp-content/uploads/2019/07/Catia.png')}}>
                     </div>
                 
             
                 
                                     <div class="item">
-                        <img alt="Enovia" class="img-fluid" src="https://tjaerospace.com/wp-content/uploads/2019/07/enovia.png">
+                        <img alt="Enovia" class="img-fluid" src={{asset('asset/wp-content/uploads/2019/07/enovia.png')}}>
                     </div>
                 
             
                 
                                     <div class="item">
-                        <img alt="GibbsCam" class="img-fluid" src="https://tjaerospace.com/wp-content/uploads/2019/07/GibbsCAM.png">
+                        <img alt="GibbsCam" class="img-fluid" src={{asset('asset/wp-content/uploads/2019/07/GibbsCAM.png')}}>
                     </div>
                 
             
                 
                                     <div class="item">
-                        <img alt="JobBoss" class="img-fluid" src="https://tjaerospace.com/wp-content/uploads/2019/07/JobBOSS.png">
+                        <img alt="JobBoss" class="img-fluid" src={{asset('asset/wp-content/uploads/2019/07/JobBOSS.png')}}>
                     </div>
                 
             
                 
                                     <div class="item">
-                        <img alt="MasterCam" class="img-fluid" src="https://tjaerospace.com/wp-content/uploads/2019/07/MasterCam.jpg">
+                        <img alt="MasterCam" class="img-fluid" src={{asset('asset/wp-content/uploads/2019/07/MasterCam.jpg')}}>
                     </div>
                 
             
                 
                                     <div class="item">
-                        <img alt="Pc-Dmis" class="img-fluid" src="https://tjaerospace.com/wp-content/uploads/2019/07/PC-DMIS.png">
+                        <img alt="Pc-Dmis" class="img-fluid" src={{asset('asset/wp-content/uploads/2019/07/PC-DMIS.png')}}>
                     </div>
                 
             
                 
                                     <div class="item">
-                        <img alt="Predator" class="img-fluid" src="https://tjaerospace.com/wp-content/uploads/2019/07/Predator.png">
+                        <img alt="Predator" class="img-fluid" src={{asset('asset/wp-content/uploads/2019/07/Predator.png')}}>
                     </div>
                 
             
                 
                                     <div class="item">
-                        <img alt="uniPoint" class="img-fluid" src="https://tjaerospace.com/wp-content/uploads/2019/07/uniPoint.png">
+                        <img alt="uniPoint" class="img-fluid" src={{asset('asset/wp-content/uploads/2019/07/uniPoint.png')}}>
                     </div>
                 
             
                 
                                     <div class="item">
-                        <img alt="Verisurf" class="img-fluid" src="https://tjaerospace.com/wp-content/uploads/2019/07/Verisurf.jpg">
+                        <img alt="Verisurf" class="img-fluid" src={{asset('asset/wp-content/uploads/2019/07/Verisurf.jpg')}}>
                     </div>
                 
                     </div>

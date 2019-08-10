@@ -6,7 +6,7 @@
         
             <section class="page-title-block">
 
-                                    <img alt="Careers" class="cover" src="https://tjaerospace.com/wp-content/uploads/2019/07/careers-cover-1920x800.jpg" height="auto" width="auto">
+                                    <img alt="Careers" class="cover" src={{asset('asset/wp-content/uploads/2019/07/careers-cover-1920x800.jpg')}} height="auto" width="auto">
                 
             
             <div class="title-container">

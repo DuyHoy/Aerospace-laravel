@@ -5,7 +5,7 @@
     <main role="main" class="main">
         <section class="page-title-block">
 
-                                <img alt="Contact Us" class="cover" src="https://tjaerospace.com/wp-content/uploads/2019/07/tjaerospace-contact-1920x800.jpg" height="auto" width="auto">
+                                <img alt="Contact Us" class="cover" src={{asset('asset/wp-content/uploads/2019/07/tjaerospace-contact-1920x800.jpg')}} height="auto" width="auto">
             
             <div class="title-container">
                 <div class="container">
