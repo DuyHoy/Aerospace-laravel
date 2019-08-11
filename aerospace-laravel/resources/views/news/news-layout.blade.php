@@ -14,6 +14,6 @@
             <!-- capabilities-head -->
             @include('static.head')
             <!-- capabilities-body -->
-            @yield('contactus-body')
+            @yield('news-body')
          </html>
          <!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1565252498 -->
