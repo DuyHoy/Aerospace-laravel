@@ -1,6 +1,6 @@
 @extends('capabilities.capabilities-layout')
-@section('capabilities-body')
-    
+@section('capabilitiesarticle')
+ 
 <article class="post-10 page type-page status-publish has-post-thumbnail hentry" itemscope="" itemtype="http://schema.org/Article">
 
     <main role="main" class="main">

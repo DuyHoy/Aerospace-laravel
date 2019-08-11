@@ -19,8 +19,8 @@
               @include('static.navbar')
                  {{-- static-header --}}
                  @include('static.header')
-                 {{-- capabilities-article --}}
-                 @yield('capabilitiesarticle')
+                 {{-- home-article --}}
+                 @yield('home-article')
                  {{-- static-footer --}}
                 @include('static.footer')
                <script type="application/ld+json">

@@ -18,7 +18,7 @@ Route::get('/whatwedo', function () {
     return view('whatwedo.whatwedo-body');
 });
 Route::get('/capabilities', function () {
-    return view('capabilities.capabilities-body');
+    return view('capabilities.capabilities-article');
 });
 // Route::get('/news', function () {
 //     return view('news.news-body');
@@ -28,5 +28,8 @@ Route::get('/carreer', function () {
 });
 Route::get('/contactus', function () {
     return view('contactus.contactus-body');
+});
+Route::get('/', function () {
+    return view('home.home-article');
 });
 Route::resource('news','PostController'); 
