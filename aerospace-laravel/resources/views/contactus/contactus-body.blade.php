@@ -1,4 +1,5 @@
 @extends('contactus.contactus-layout')
+
 @section('contactus-body')
 <article class="post-8 page type-page status-publish has-post-thumbnail hentry" itemscope="" itemtype="http://schema.org/Article">
 
@@ -11,8 +12,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <h1 class="page-title">Contact Us</h1>
-                            <div class="lead">Get in Touch with Us</div>
+                        <h1 class="page-title">{{trans('contact.title1')}}</h1>
+                            <div class="lead">{{trans('contact.title1-c1')}}</div>
                         </div>
                     </div>
                 </div>
@@ -27,21 +28,21 @@
                         <div class="col-lg-4 mb-4 mb-lg-0">
                             <a class="card" href="tel:+1 (714) 891-3564">
                                 <i class="fa fa-phone"></i>
-                                <span class="h6">Call Today</span>
+                                <span class="h6">{{trans('contact.title2')}}</span>
                                 <h4>+1 (714) 891-3564</h4>
                             </a>
                         </div>
                         <div class="col-lg-4 mb-4 mb-lg-0">
                             <a class="card" href="tel:+1 (714) 891-6045">
                                 <i class="fa fa-fax"></i>
-                                <span class="h6">Send a Fax</span>
+                                <span class="h6">{{trans('contact.title2-c1')}}</span>
                                 <h4>+1 (714) 891-6045</h4>
                             </a>
                         </div>
                         <div class="col-lg-4 mb-4 mb-lg-0">
                             <a class="card mail-card" href="mailto:info@tjaerospace.om">
                                 <i class="fa fa-envelope-o"></i>
-                                <span class="h6">E-mail us</span>
+                                <span class="h6">{{trans('contact.title2-c2')}}</span>
                                 <h4>info@tjaerospace.om</h4>
                             </a>
                         </div>
@@ -51,11 +52,11 @@
 
             
 <div class="wp-block-magicblock-magicblock container text-center">
-<h2 class="font-weight-bold">Request Information</h2>
+<h2 class="font-weight-bold">{{trans('contact.title3')}}</h2>
 
 
 
-<p class="lead font-weight-normal"> Please fill the form below to request any information or a quote.</p>
+<p class="lead font-weight-normal">{{trans('contact.title3-c1')}}</p>
 </div>
 
 
@@ -72,38 +73,38 @@
 </div>
 <div class="row">
 <div class="col-md-6">
-<div class="form-group"><label>First Name</label><span class="wpcf7-form-control-wrap first-name"><input type="text" name="first-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false"></span></div>
+<div class="form-group"><label>{{trans('contact.title3-c2')}}</label><span class="wpcf7-form-control-wrap first-name"><input type="text" name="first-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false"></span></div>
 </div>
 <div class="col-md-6">
-<div class="form-group"><label>Last Name</label><span class="wpcf7-form-control-wrap last-name"><input type="text" name="last-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false"></span></div>
+<div class="form-group"><label>{{trans('contact.title3-c3')}}</label><span class="wpcf7-form-control-wrap last-name"><input type="text" name="last-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false"></span></div>
 </div>
 </div>
 <div class="row">
 <div class="col-md-6">
-<div class="form-group"><label>E-mail</label><span class="wpcf7-form-control-wrap email"><input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" aria-required="true" aria-invalid="false"></span></div>
+<div class="form-group"><label>{{trans('contact.title3-c4')}}</label><span class="wpcf7-form-control-wrap email"><input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" aria-required="true" aria-invalid="false"></span></div>
 </div>
 <div class="col-md-6">
-<div class="form-group"><label>Phone Number</label><span class="wpcf7-form-control-wrap phone"><input type="text" name="phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false"></span></div>
+<div class="form-group"><label>{{trans('contact.title3-c5')}}</label><span class="wpcf7-form-control-wrap phone"><input type="text" name="phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false"></span></div>
 </div>
 </div>
 <div class="row">
 <div class="col-12">
-<div class="form-group"><label>Subject</label><span class="wpcf7-form-control-wrap subject"><input type="text" name="subject" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false"></span></div>
+<div class="form-group"><label>{{trans('contact.title3-c6')}}</label><span class="wpcf7-form-control-wrap subject"><input type="text" name="subject" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false"></span></div>
 </div>
 </div>
 <div class="row">
 <div class="col-12">
-<div class="form-group"><label>Message</label><span class="wpcf7-form-control-wrap message"><textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea form-control" aria-invalid="false"></textarea></span></div>
+<div class="form-group"><label>{{trans('contact.title3-c7')}}</label><span class="wpcf7-form-control-wrap message"><textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea form-control" aria-invalid="false"></textarea></span></div>
 </div>
 </div>
 <div class="row">
 <div class="col-12">
-<div class="form-group"><label>Attach a File (PDF or DOC)</label><span class="wpcf7-form-control-wrap upload-attachment"><div class="codedropz-upload-wrapper"><input type="file" size="40" class="wpcf7-form-control wpcf7-drag-n-drop-file d-none" aria-invalid="false" multiple="multiple" data-name="upload-attachment" data-type="pdf|doc|docx"><div class="codedropz-upload-handler"><div class="codedropz-upload-container"><div class="codedropz-upload-inner"><h3>Drag &amp; Drop Files Here</h3><span>or</span><div class="codedropz-btn-wrap"><a class="cd-upload-btn" href="javascript:void(0)">Browse Files</a></div></div></div></div></div></span></div>
+<div class="form-group"><label>{{trans('contact.title3-c8')}}</label><span class="wpcf7-form-control-wrap upload-attachment"><div class="codedropz-upload-wrapper"><input type="file" size="40" class="wpcf7-form-control wpcf7-drag-n-drop-file d-none" aria-invalid="false" multiple="multiple" data-name="upload-attachment" data-type="pdf|doc|docx"><div class="codedropz-upload-handler"><div class="codedropz-upload-container"><div class="codedropz-upload-inner"><h3>{{trans('contact.title3-c9')}}</h3><span>or</span><div class="codedropz-btn-wrap"><a class="cd-upload-btn" href="javascript:void(0)">{{trans('contact.title3-c12')}}</a></div></div></div></div></div></span></div>
 </div>
 </div>
 <div class="row mt-4">
-<div class="col-md-6"><span class="wpcf7-form-control-wrap acceptance-ok"><span class="wpcf7-form-control wpcf7-acceptance"><span class="wpcf7-list-item"><label><input type="checkbox" name="acceptance-ok" value="1" aria-invalid="false"><span class="wpcf7-list-item-label"><strong>I Agree to Privacy Policy</strong></span></label></span></span></span></div>
-<div class="col-md-6 text-right"><input type="submit" value="Send Message" class="wpcf7-form-control wpcf7-submit btn btn-dark" disabled=""><span class="ajax-loader"></span></div>
+<div class="col-md-6"><span class="wpcf7-form-control-wrap acceptance-ok"><span class="wpcf7-form-control wpcf7-acceptance"><span class="wpcf7-list-item"><label><input type="checkbox" name="acceptance-ok" value="1" aria-invalid="false"><span class="wpcf7-list-item-label"><strong>{{trans('contact.title3-c10')}}</strong></span></label></span></span></span></div>
+<div class="col-md-6 text-right"><input type="submit" value={{trans('contact.title3-c11')}} class="wpcf7-form-control wpcf7-submit btn btn-dark" disabled=""><span class="ajax-loader"></span></div>
 </div>
 <div class="wpcf7-response-output wpcf7-display-none"></div></form></div></div>                
         </section>

@@ -1,7 +1,7 @@
 <?php
 return [
 'title1'=>'CONTACT US',
-'title1'=>'Get in Touch with Us',
+'title1-c1'=>'Get in Touch with Us',
 
 
 'title2'=>'CALL TODAY',
@@ -21,7 +21,7 @@ return [
 'title3-c9'=>'Drag & Drop Files Here',
 'title3-c10'=>'I Agree to Privacy Policy',
 'title3-c11'=>'SEND MESSAGE',
-
+'title3-c12'=>'Browse Files',
  
 
 

@@ -1,7 +1,7 @@
 <?php
 return [
 'title1'=>'LIÊN HỆ VỚI CHÚNG TÔI',
-'title1'=>'Hãy liên lạc với chúng tôi',
+'title1-c1'=>'Hãy liên lạc với chúng tôi',
 
 
 'title2'=>'GỌI HÔM NAY',
@@ -18,10 +18,10 @@ return [
 'title3-c6'=>'CHỦ ĐỀ',
 'title3-c7'=>'THƯ',
 'title3-c8'=>'ĐÍNH KÈM TỆP (PDF HOẶC DOC)',
-'title3-c9'=>'Drag & Drop Files Here',
+'title3-c9'=>'Kéo thả file tại đây',
 'title3-c10'=>'Tôi đồng ý với chính sách bảo mật',
 'title3-c11'=>'GỬI TIN NHẮN',
-
+'title3-c12'=>'Chọn File',
  
 
 
