@@ -28,3 +28,12 @@ Route::get('/', function () {
 });
 Route::resource('news','PostController'); 
 Route::resource('carreer','CarreerController'); 
+Route::get('/test', function () {
+//    echo (URL::to('whatwedo.html'));
+//    echo url()->full();
+   echo url('/public','images1');
+//    echo asset('public');
+// $contents = Storage::get('');
+// echo($contents);
+// echo( asset('storage/images/'));
+});

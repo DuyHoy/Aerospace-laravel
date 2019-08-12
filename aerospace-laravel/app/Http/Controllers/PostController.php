@@ -47,11 +47,15 @@ class PostController extends Controller
      */
     public function show($id)
     {
+        // echo (asset('storage/images/'));
+        // echo($id->img);
+        // $posts=Post::findOrFail($id);
+        // echo($posts->img);
         //
-        $posts=Post::findOrFail($id);
+        // $posts=Post::findOrFail($id);
         // return view('news.news-body-show',compact('posts'));
         // return $posts;
-        return view('post.post-body',compact('posts'));
+        // return view('post.post-body',compact('posts'));
     }
 
     /**
