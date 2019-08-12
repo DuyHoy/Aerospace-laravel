@@ -23,9 +23,10 @@ Route::get('/capabilities', function () {
 // Route::get('/news', function () {
 //     return view('news.news-body');
 // });
-Route::get('/carreer', function () {
-    return view('carreer.carreer-body');
-});
+// Route::get('/carreer', function () {
+//     return view('carreer.carreer-body');
+// });
+
 Route::get('/contactus', function () {
     return view('contactus.contactus-body');
 });
@@ -33,3 +34,4 @@ Route::get('/', function () {
     return view('home.home-article');
 });
 Route::resource('news','PostController'); 
+Route::resource('carreer','CarreerController'); 
