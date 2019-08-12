@@ -1,6 +1,6 @@
 @extends('capabilities.capabilities-layout')
-@section('capabilitiesarticle')
- 
+@section('capabilitiesbody')
+    
 <article class="post-10 page type-page status-publish has-post-thumbnail hentry" itemscope="" itemtype="http://schema.org/Article">
 
     <main role="main" class="main">
@@ -14,8 +14,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <h1 class="page-title">Capabilities</h1>
-                            <div class="lead">Machines, Materials &amp; Technology</div>
+                            <h1 class="page-title">{{trans('capabilities.title1')}}</h1>
+                            <div class="lead">{{trans('capabilities.title1-c1')}}</div>
                         </div>
                     </div>
                 </div>
@@ -31,25 +31,25 @@
 <div class="wp-block-magicblock-magicblock container">
 <div class="wp-block-magicblock-magicblock row">
 <div class="wp-block-magicblock-magicblock col-md-6">
-<h5 class="text-primary font-weight-semibold text-uppercase">Purpose</h5>
+<h5 class="text-primary font-weight-semibold text-uppercase">{{trans('capabilities.title2')}}</h5>
 
 
 
-<h2>With a strong engineering, manufacturing and quality background, everything from machining to inspection is executed to the highest of industry standards.</h2>
+<h2>{{trans('capabilities.title2-c1')}}</h2>
 </div>
 
 
 
 <div class="wp-block-magicblock-magicblock col-md-6">
-<p>We specialize in production of complex, high precision, tight tolerance machined parts and sub-assembly in our 49,000-square-foot state-of-the-art facility.</p>
+<p>{{trans('capabilities.title2-c2')}}</p>
 
 
 
-<p>With decades of experience, TJ Aerospace promises products of uncompromised quality, delivered on-time and at a competitive price. </p>
+<!-- <p>With decades of experience, TJ Aerospace promises products of uncompromised quality, delivered on-time and at a competitive price. </p>
 
 
 
-<p>TJ Aerospace also prides itself on staying current on the latest technology and that kind of forward-thinking will be evident in your product.</p>
+<p>TJ Aerospace also prides itself on staying current on the latest technology and that kind of forward-thinking will be evident in your product.</p> -->
 </div>
 </div>
 </div>
@@ -58,14 +58,14 @@
 
 <div id="skillblock-block_5d226f3c9be2b" class="skillblock ">
     <div class="container">
-            <h6 class="mb-3 mb-sm-5 mx-auto heading">Our Core Skills</h6>
+            <h6 class="mb-3 mb-sm-5 mx-auto heading">{{trans('capabilities.title4')}}</h6>
     
             <div class="row">
                             <div class="col-md-6 col-lg-4">
                     <div class="media">
                         <span class="icon"><i class="fa fa-angle-right"></i></span>
                         <div class="media-body">
-                            <h4>CNC Milling &amp; Turning of Various Materials</h4>
+                            <h4>{{trans('capabilities.title4-c1')}}</h4>
                         </div>
                     </div>
                 </div>
@@ -73,7 +73,7 @@
                     <div class="media">
                         <span class="icon"><i class="fa fa-angle-right"></i></span>
                         <div class="media-body">
-                            <h4>Prototype to High Volume Manufacturing</h4>
+                            <h4>{{trans('capabilities.title4-c2')}}</h4>
                         </div>
                     </div>
                 </div>
@@ -81,7 +81,7 @@
                     <div class="media">
                         <span class="icon"><i class="fa fa-angle-right"></i></span>
                         <div class="media-body">
-                            <h4>Lean, Automated Manufacturing</h4>
+                            <h4>{{trans('capabilities.title4-c3')}}</h4>
                         </div>
                     </div>
                 </div>
@@ -89,7 +89,7 @@
                     <div class="media">
                         <span class="icon"><i class="fa fa-angle-right"></i></span>
                         <div class="media-body">
-                            <h4>In-House Fixturing &amp; Tooling</h4>
+                            <h4>{{trans('capabilities.title4-c4')}}</h4>
                         </div>
                     </div>
                 </div>
@@ -97,7 +97,7 @@
                     <div class="media">
                         <span class="icon"><i class="fa fa-angle-right"></i></span>
                         <div class="media-body">
-                            <h4>Sheet Metal Fabrication</h4>
+                            <h4>{{trans('capabilities.title4-c5')}}</h4>
                         </div>
                     </div>
                 </div>
@@ -105,7 +105,7 @@
                     <div class="media">
                         <span class="icon"><i class="fa fa-angle-right"></i></span>
                         <div class="media-body">
-                            <h4>Assembly, Sub-Assembly, Kitting &amp; Testing</h4>
+                            <h4>{{trans('capabilities.title4-c6')}}</h4>
                         </div>
                     </div>
                 </div>
@@ -113,7 +113,7 @@
                     <div class="media">
                         <span class="icon"><i class="fa fa-angle-right"></i></span>
                         <div class="media-body">
-                            <h4>Engineering Support</h4>
+                            <h4>{{trans('capabilities.title4-c7')}}</h4>
                         </div>
                     </div>
                 </div>
@@ -121,7 +121,7 @@
                     <div class="media">
                         <span class="icon"><i class="fa fa-angle-right"></i></span>
                         <div class="media-body">
-                            <h4>CAM Programming Services</h4>
+                            <h4>{{trans('capabilities.title4-c8')}}</h4>
                         </div>
                     </div>
                 </div>
@@ -129,7 +129,7 @@
                     <div class="media">
                         <span class="icon"><i class="fa fa-angle-right"></i></span>
                         <div class="media-body">
-                            <h4>Long-Term Contract Manufacturing</h4>
+                            <h4>{{trans('capabilities.title4-c9')}}</h4>
                         </div>
                     </div>
                 </div>
@@ -137,7 +137,7 @@
                     <div class="media">
                         <span class="icon"><i class="fa fa-angle-right"></i></span>
                         <div class="media-body">
-                            <h4>Additive Manufacturing</h4>
+                            <h4>{{trans('capabilities.title4-c10')}}</h4>
                         </div>
                     </div>
                 </div>
@@ -145,7 +145,7 @@
                     <div class="media">
                         <span class="icon"><i class="fa fa-angle-right"></i></span>
                         <div class="media-body">
-                            <h4>Lights-Out Manufacturing with Passive Fire Suppression System</h4>
+                            <h4>{{trans('capabilities.title4-c11')}}</h4>
                         </div>
                     </div>
                 </div>
@@ -153,7 +153,7 @@
                     <div class="media">
                         <span class="icon"><i class="fa fa-angle-right"></i></span>
                         <div class="media-body">
-                            <h4>Smart Manufacturing</h4>
+                            <h4>{{trans('capabilities.title4-c12')}}</h4>
                         </div>
                     </div>
                 </div>
@@ -161,7 +161,7 @@
                     <div class="media">
                         <span class="icon"><i class="fa fa-angle-right"></i></span>
                         <div class="media-body">
-                            <h4>Ultrasonic Multi-Stage Cleaning</h4>
+                            <h4>{{trans('capabilities.title4-c13')}}</h4>
                         </div>
                     </div>
                 </div>
@@ -169,7 +169,7 @@
                     <div class="media">
                         <span class="icon"><i class="fa fa-angle-right"></i></span>
                         <div class="media-body">
-                            <h4>Clean Room Assembly</h4>
+                            <h4>{{trans('capabilities.title4-c14')}}</h4>
                         </div>
                     </div>
                 </div>
@@ -182,7 +182,7 @@
         <div class="row no-guttes">
             <div class="col-lg-8 bg-lightgray py-5 py-md-6">
                 <div class="px-0 px-sm-4 px-xl-5">
-                                            <h2 class="mb-3 mb-md-5 mx-auto">Our Equipment</h2>
+                                            <h2 class="mb-3 mb-md-5 mx-auto">{{trans('capabilities.title5')}}</h2>
                     
                     
                     <div class="accordion">
@@ -191,7 +191,7 @@
                         <div class="card">
                             <div class="card-header" id="heading_1">
                                 <h5 class="mb-0">
-                                    <button class="btn btn-link " data-toggle="collapse" data-target="#collapse_1" aria-expanded="true" aria-controls="collapse_1">DMG MORI</button>
+                                    <button class="btn btn-link " data-toggle="collapse" data-target="#collapse_1" aria-expanded="true" aria-controls="collapse_1">{{trans('capabilities.title5-c1')}}</button>
                                 </h5>
                             </div>
 
@@ -200,9 +200,9 @@
                                     <table class="table">
                                         <thead>
                                         <tr>
-                                            <th class="text-uppercase">Model</th>
-                                            <th class="text-uppercase">Table Size</th>
-                                            <th class="text-uppercase text-right">Qty</th>
+                                            <th class="text-uppercase">{{trans('capabilities.title6-c1')}}</th>
+                                            <th class="text-uppercase">{{trans('capabilities.title6-c2')}}</th>
+                                            <th class="text-uppercase text-right">{{trans('capabilities.title6-c3')}}</th>
                                         </tr>
                                         </thead>
                                         <tbody>
@@ -226,7 +226,7 @@
                         <div class="card">
                             <div class="card-header" id="heading_2">
                                 <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse_2" aria-expanded="false" aria-controls="collapse_2">FLOW</button>
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse_2" aria-expanded="false" aria-controls="collapse_2">{{trans('capabilities.title5-c2')}}</button>
                                 </h5>
                             </div>
 
@@ -235,9 +235,9 @@
                                     <table class="table">
                                         <thead>
                                         <tr>
-                                            <th class="text-uppercase">Model</th>
-                                            <th class="text-uppercase">Table Size</th>
-                                            <th class="text-uppercase text-right">Qty</th>
+                                            <th class="text-uppercase">{{trans('capabilities.title6-c1')}}</th>
+                                            <th class="text-uppercase">{{trans('capabilities.title6-c2')}}</th>
+                                            <th class="text-uppercase text-right">{{trans('capabilities.title6-c3')}}</th>
                                         </tr>
                                         </thead>
                                         <tbody>
@@ -256,7 +256,7 @@
                         <div class="card">
                             <div class="card-header" id="heading_3">
                                 <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse_3" aria-expanded="false" aria-controls="collapse_3">HAAS</button>
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse_3" aria-expanded="false" aria-controls="collapse_3">{{trans('capabilities.title5-c3')}}</button>
                                 </h5>
                             </div>
 
@@ -265,9 +265,9 @@
                                     <table class="table">
                                         <thead>
                                         <tr>
-                                            <th class="text-uppercase">Model</th>
-                                            <th class="text-uppercase">Table Size</th>
-                                            <th class="text-uppercase text-right">Qty</th>
+                                            <th class="text-uppercase">{{trans('capabilities.title6-c1')}}</th>
+                                            <th class="text-uppercase">{{trans('capabilities.title6-c2')}}</th>
+                                            <th class="text-uppercase text-right">{{trans('capabilities.title6-c1')}}</th>
                                         </tr>
                                         </thead>
                                         <tbody>
@@ -321,7 +321,7 @@
                         <div class="card">
                             <div class="card-header" id="heading_4">
                                 <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse_4" aria-expanded="false" aria-controls="collapse_4">KITAGAWA</button>
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse_4" aria-expanded="false" aria-controls="collapse_4">{{trans('capabilities.title5-c4')}}</button>
                                 </h5>
                             </div>
 
@@ -330,9 +330,9 @@
                                     <table class="table">
                                         <thead>
                                         <tr>
-                                            <th class="text-uppercase">Model</th>
-                                            <th class="text-uppercase">Table Size</th>
-                                            <th class="text-uppercase text-right">Qty</th>
+                                            <th class="text-uppercase">{{trans('capabilities.title6-c1')}}</th>
+                                            <th class="text-uppercase">{{trans('capabilities.title6-c2')}}</th>
+                                            <th class="text-uppercase text-right">{{trans('capabilities.title6-c3')}}</th>
                                         </tr>
                                         </thead>
                                         <tbody>
@@ -351,7 +351,7 @@
                         <div class="card">
                             <div class="card-header" id="heading_5">
                                 <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse_5" aria-expanded="false" aria-controls="collapse_5">MORI SEIKI</button>
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse_5" aria-expanded="false" aria-controls="collapse_5">{{trans('capabilities.title5-c5')}}</button>
                                 </h5>
                             </div>
 
@@ -360,9 +360,9 @@
                                     <table class="table">
                                         <thead>
                                         <tr>
-                                            <th class="text-uppercase">Model</th>
-                                            <th class="text-uppercase">Table Size</th>
-                                            <th class="text-uppercase text-right">Qty</th>
+                                            <th class="text-uppercase">{{trans('capabilities.title6-c1')}}</th>
+                                            <th class="text-uppercase">{{trans('capabilities.title6-c2')}}</th>
+                                            <th class="text-uppercase text-right">{{trans('capabilities.title6-c3')}}</th>
                                         </tr>
                                         </thead>
                                         <tbody>
@@ -386,7 +386,7 @@
                         <div class="card">
                             <div class="card-header" id="heading_6">
                                 <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse_6" aria-expanded="false" aria-controls="collapse_6">NIKKEN</button>
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse_6" aria-expanded="false" aria-controls="collapse_6">{{trans('capabilities.title5-c6')}}</button>
                                 </h5>
                             </div>
 
@@ -395,9 +395,9 @@
                                     <table class="table">
                                         <thead>
                                         <tr>
-                                            <th class="text-uppercase">Model</th>
-                                            <th class="text-uppercase">Table Size</th>
-                                            <th class="text-uppercase text-right">Qty</th>
+                                            <th class="text-uppercase">{{trans('capabilities.title6-c1')}}</th>
+                                            <th class="text-uppercase">{{trans('capabilities.title6-c2')}}</th>
+                                            <th class="text-uppercase text-right">{{trans('capabilities.title6-c3')}}</th>
                                         </tr>
                                         </thead>
                                         <tbody>
@@ -426,7 +426,7 @@
                         <div class="card">
                             <div class="card-header" id="heading_7">
                                 <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse_7" aria-expanded="false" aria-controls="collapse_7">OKK</button>
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse_7" aria-expanded="false" aria-controls="collapse_7">{{trans('capabilities.title5-c7')}}</button>
                                 </h5>
                             </div>
 
@@ -435,9 +435,9 @@
                                     <table class="table">
                                         <thead>
                                         <tr>
-                                            <th class="text-uppercase">Model</th>
-                                            <th class="text-uppercase">Table Size</th>
-                                            <th class="text-uppercase text-right">Qty</th>
+                                            <th class="text-uppercase">{{trans('capabilities.title6-c1')}}</th>
+                                            <th class="text-uppercase">{{trans('capabilities.title6-c2')}}</th>
+                                            <th class="text-uppercase text-right">{{trans('capabilities.title6-c3')}}</th>
                                         </tr>
                                         </thead>
                                         <tbody>
@@ -466,7 +466,7 @@
                         <div class="card">
                             <div class="card-header" id="heading_8">
                                 <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse_8" aria-expanded="false" aria-controls="collapse_8">CITIZEN-CINCOM</button>
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse_8" aria-expanded="false" aria-controls="collapse_8">{{trans('capabilities.title5-c8')}}</button>
                                 </h5>
                             </div>
 
@@ -475,9 +475,9 @@
                                     <table class="table">
                                         <thead>
                                         <tr>
-                                            <th class="text-uppercase">Model</th>
-                                            <th class="text-uppercase">Table Size</th>
-                                            <th class="text-uppercase text-right">Qty</th>
+                                            <th class="text-uppercase">{{trans('capabilities.title6-c1')}}</th>
+                                            <th class="text-uppercase">{{trans('capabilities.title6-c2')}}</th>
+                                            <th class="text-uppercase text-right">{{trans('capabilities.title6-c3')}}</th>
                                         </tr>
                                         </thead>
                                         <tbody>
@@ -496,7 +496,7 @@
                         <div class="card">
                             <div class="card-header" id="heading_9">
                                 <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse_9" aria-expanded="false" aria-controls="collapse_9">AUTOMATED INSPECTION</button>
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse_9" aria-expanded="false" aria-controls="collapse_9">{{trans('capabilities.title5-c9')}}</button>
                                 </h5>
                             </div>
 
@@ -505,9 +505,9 @@
                                     <table class="table">
                                         <thead>
                                         <tr>
-                                            <th class="text-uppercase">Model</th>
-                                            <th class="text-uppercase">Table Size</th>
-                                            <th class="text-uppercase text-right">Qty</th>
+                                            <th class="text-uppercase">{{trans('capabilities.title6-c1')}}</th>
+                                            <th class="text-uppercase">{{trans('capabilities.title6-c2')}}</th>
+                                            <th class="text-uppercase text-right">{{trans('capabilities.title6-c3')}}</th>
                                         </tr>
                                         </thead>
                                         <tbody>
@@ -541,7 +541,7 @@
                         <div class="card">
                             <div class="card-header" id="heading_10">
                                 <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse_10" aria-expanded="false" aria-controls="collapse_10">ADDITIONAL SERVICES</button>
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse_10" aria-expanded="false" aria-controls="collapse_10">{{trans('capabilities.title5-c10')}}</button>
                                 </h5>
                             </div>
 
@@ -550,9 +550,9 @@
                                     <table class="table">
                                         <thead>
                                         <tr>
-                                            <th class="text-uppercase">Model</th>
-                                            <th class="text-uppercase">Table Size</th>
-                                            <th class="text-uppercase text-right">Qty</th>
+                                            <th class="text-uppercase">{{trans('capabilities.title6-c1')}}</th>
+                                            <th class="text-uppercase">{{trans('capabilities.title6-c2')}}</th>
+                                            <th class="text-uppercase text-right">{{trans('capabilities.title6-c3')}}</th>
                                         </tr>
                                         </thead>
                                         <tbody>
@@ -597,40 +597,40 @@
                 <div class="px-0 px-sm-4 px-xl-5">
 
                     
-                            <h4 class="text-uppercase text-primary">Company Info</h4>
+                            <h4 class="text-uppercase text-primary">{{trans('capabilities.title7')}}</h4>
 
                                                             <div class="row mb-5">
-                                                                            <div class="col-md-6 col-lg-12 col-xl-6 col-label"><span class="font-weight-semibold">Cage Code</span></div>
+                                                                            <div class="col-md-6 col-lg-12 col-xl-6 col-label"><span class="font-weight-semibold">{{trans('capabilities.title7-c1')}}</span></div>
                                         <div class="col-md-6 col-lg-12 col-xl-6 col-value"><p>5WGW6</p>
 </div>
-                                                                            <div class="col-md-6 col-lg-12 col-xl-6 col-label"><span class="font-weight-semibold">Certifications</span></div>
+                                                                            <div class="col-md-6 col-lg-12 col-xl-6 col-label"><span class="font-weight-semibold">{{trans('capabilities.title7-c2')}}</span></div>
                                         <div class="col-md-6 col-lg-12 col-xl-6 col-value"><p>ISO 9001:2015<br>
 AS9100:2016<br>
 ITAR Compliant</p>
 </div>
-                                                                            <div class="col-md-6 col-lg-12 col-xl-6 col-label"><span class="font-weight-semibold">Classifications</span></div>
+                                                                            <div class="col-md-6 col-lg-12 col-xl-6 col-label"><span class="font-weight-semibold">{{trans('capabilities.title7-c3')}}</span></div>
                                         <div class="col-md-6 col-lg-12 col-xl-6 col-value"><p>Minority-Owned,<br>
 Small Business</p>
 </div>
-                                                                            <div class="col-md-6 col-lg-12 col-xl-6 col-label"><span class="font-weight-semibold">DUNS#</span></div>
+                                                                            <div class="col-md-6 col-lg-12 col-xl-6 col-label"><span class="font-weight-semibold">{{trans('capabilities.title7-c4')}}</span></div>
                                         <div class="col-md-6 col-lg-12 col-xl-6 col-value"><p>801918330</p>
 </div>
-                                                                            <div class="col-md-6 col-lg-12 col-xl-6 col-label"><span class="font-weight-semibold">Facility</span></div>
+                                                                            <div class="col-md-6 col-lg-12 col-xl-6 col-label"><span class="font-weight-semibold">{{trans('capabilities.title7-c5')}}</span></div>
                                         <div class="col-md-6 col-lg-12 col-xl-6 col-value"><p>49,000sqft</p>
 </div>
-                                                                            <div class="col-md-6 col-lg-12 col-xl-6 col-label"><span class="font-weight-semibold">NAICS Codes</span></div>
+                                                                            <div class="col-md-6 col-lg-12 col-xl-6 col-label"><span class="font-weight-semibold">{{trans('capabilities.title7-c6')}}</span></div>
                                         <div class="col-md-6 col-lg-12 col-xl-6 col-value"><p>332710</p>
 </div>
-                                                                            <div class="col-md-6 col-lg-12 col-xl-6 col-label"><span class="font-weight-semibold">SIC Codes</span></div>
+                                                                            <div class="col-md-6 col-lg-12 col-xl-6 col-label"><span class="font-weight-semibold">{{trans('capabilities.title7-c7')}}</span></div>
                                         <div class="col-md-6 col-lg-12 col-xl-6 col-value"><p>3599</p>
 </div>
-                                                                            <div class="col-md-6 col-lg-12 col-xl-6 col-label"><span class="font-weight-semibold">Year Established</span></div>
+                                                                            <div class="col-md-6 col-lg-12 col-xl-6 col-label"><span class="font-weight-semibold">{{trans('capabilities.title7-c8')}}</span></div>
                                         <div class="col-md-6 col-lg-12 col-xl-6 col-value"><p>2007</p>
 </div>
                                                                     </div>
                             
-                            <h4 class="text-uppercase text-primary">Materials</h4>
-                            <div><p>Alloys, Aluminum, Brass, Bronze Alloys, Carbon Steel, Copper, Foam, Honeycomb Panels, Inconel, Iron, Phenolic, Plastic, Plates, Stainless Steel, Titanium, Exotic Materials, Etc.</p>
+                            <h4 class="text-uppercase text-primary">{{trans('capabilities.title7-c9')}}</h4>
+                            <div><p>{{trans('capabilities.title7-c10')}}</p>
 </div>
 
                         
@@ -643,7 +643,7 @@ Small Business</p>
 </div>
 
 <div id="imagelist-block_5d23b6f26bef4" class="imagelistblock ">
-            <h6 class="mb-3 mb-sm-4 mx-auto text-center px-3 heading">We use the following software in our Company:</h6>
+            <h6 class="mb-3 mb-sm-4 mx-auto text-center px-3 heading">{{trans('capabilities.title8')}}</h6>
     
     
     <div class="container">

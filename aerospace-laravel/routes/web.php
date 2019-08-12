@@ -18,7 +18,7 @@ Route::get('/whatwedo', function () {
     return view('whatwedo.whatwedo-body');
 });
 Route::get('/capabilities', function () {
-    return view('capabilities.capabilities-article');
+    return view('capabilities.capabilities-body');
 });
 // Route::get('/news', function () {
 //     return view('news.news-body');
