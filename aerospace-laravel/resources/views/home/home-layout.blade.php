@@ -13,7 +13,7 @@
             <!--<![endif]-->
              <!-- capabilities-head -->
         @include('static.head')
-          {{-- static-head --}}
+          <!-- -- static-head -- -->
             <body class="page page-id-10 cookies-set cookies-accepted woocommerce-no-js capabilities">
               {{-- static-navbar --}}
               @include('static.navbar')
