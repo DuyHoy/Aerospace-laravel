@@ -20,12 +20,6 @@ Route::get('/whatwedo', function () {
 Route::get('/capabilities', function () {
     return view('capabilities.capabilities-body');
 });
-// Route::get('/news', function () {
-//     return view('news.news-body');
-// });
-// Route::get('/carreer', function () {
-//     return view('carreer.carreer-body');
-// });
 Route::get('/contactus', function () {
     return view('contactus.contactus-body');
 });
