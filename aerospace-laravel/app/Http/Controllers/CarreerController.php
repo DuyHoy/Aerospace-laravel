@@ -48,7 +48,9 @@ class CarreerController extends Controller
     public function show($id)
     {
         //
-        return($id);
+        
+        return view('carreer.carreer-show-body',compact('id')) ;  
+    
     }
 
     /**

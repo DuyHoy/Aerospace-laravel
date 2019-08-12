@@ -73,30 +73,30 @@
 <div class="form-group"><label>{{trans('contact.title3-c2')}}</label><span class="wpcf7-form-control-wrap first-name"><input type="text" name="first-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false"></span></div>
 </div>
 <div class="col-md-6">
-<div class="form-group"><label>{{trans('contact.title3-c2')}}</label><span class="wpcf7-form-control-wrap last-name"><input type="text" name="last-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false"></span></div>
+<div class="form-group"><label>{{trans('contact.title3-c3')}}</label><span class="wpcf7-form-control-wrap last-name"><input type="text" name="last-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false"></span></div>
 </div>
 </div>
 <div class="row">
 <div class="col-md-6">
-<div class="form-group"><label>{{trans('contact.title3-c2')}}</label><span class="wpcf7-form-control-wrap email"><input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" aria-required="true" aria-invalid="false"></span></div>
+<div class="form-group"><label>{{trans('contact.title3-c4')}}</label><span class="wpcf7-form-control-wrap email"><input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" aria-required="true" aria-invalid="false"></span></div>
 </div>
 <div class="col-md-6">
-<div class="form-group"><label>{{trans('contact.title3-c2')}}</label><span class="wpcf7-form-control-wrap phone"><input type="text" name="phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false"></span></div>
+<div class="form-group"><label>{{trans('contact.title3-c5')}}</label><span class="wpcf7-form-control-wrap phone"><input type="text" name="phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false"></span></div>
 </div>
 </div>
 <div class="row">
 <div class="col-12">
-<div class="form-group"><label>{{trans('contact.title3-c2')}}</label><span class="wpcf7-form-control-wrap subject"><input type="text" name="subject" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false"></span></div>
+<div class="form-group"><label>{{trans('contact.title3-c6')}}</label><span class="wpcf7-form-control-wrap subject"><input type="text" name="subject" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false"></span></div>
 </div>
 </div>
 <div class="row">
 <div class="col-12">
-<div class="form-group"><label>{{trans('contact.title3-c2')}}</label><span class="wpcf7-form-control-wrap message"><textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea form-control" aria-invalid="false"></textarea></span></div>
+<div class="form-group"><label>{{trans('contact.title3-c7')}}</label><span class="wpcf7-form-control-wrap message"><textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea form-control" aria-invalid="false"></textarea></span></div>
 </div>
 </div>
 <div class="row">
 <div class="col-12">
-<div class="form-group"><label>{{trans('contact.title3-c2')}}</label><span class="wpcf7-form-control-wrap upload-attachment"><div class="codedropz-upload-wrapper"><input type="file" size="40" class="wpcf7-form-control wpcf7-drag-n-drop-file d-none" aria-invalid="false" multiple="multiple" data-name="upload-attachment" data-type="pdf|doc|docx"><div class="codedropz-upload-handler"><div class="codedropz-upload-container"><div class="codedropz-upload-inner"><h3>{{trans('contact.title3-c2')}}</h3><span>or</span><div class="codedropz-btn-wrap"><a class="cd-upload-btn" href="javascript:void(0)">{{trans('contact.title3-c12')}}</a></div></div></div></div></div></span></div>
+<div class="form-group"><label>{{trans('contact.title3-c8')}}</label><span class="wpcf7-form-control-wrap upload-attachment"><div class="codedropz-upload-wrapper"><input type="file" size="40" class="wpcf7-form-control wpcf7-drag-n-drop-file d-none" aria-invalid="false" multiple="multiple" data-name="upload-attachment" data-type="pdf|doc|docx"><div class="codedropz-upload-handler"><div class="codedropz-upload-container"><div class="codedropz-upload-inner"><h3>{{trans('contact.title3-c9')}}</h3><span>or</span><div class="codedropz-btn-wrap"><a class="cd-upload-btn" href="javascript:void(0)">{{trans('contact.title3-c12')}}</a></div></div></div></div></div></span></div>
 </div>
 </div>
 <div class="row mt-4">

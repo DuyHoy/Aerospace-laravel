@@ -2,9 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Post;
 use Illuminate\Http\Request;
-
+use App\Post;
 class PostController extends Controller
 {
     /**
@@ -14,8 +13,8 @@ class PostController extends Controller
      */
     public function index()
     {
-       $posts=Post::all();
-    
+        //
+        $posts=Post::all();
         return view('news.news-body',compact('posts'));
     }
 
@@ -43,22 +42,25 @@ class PostController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Post  $post
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Post $post)
+    public function show($id)
     {
         //
-        return $post;
+        $posts=Post::findOrFail($id);
+        // return view('news.news-body-show',compact('posts'));
+        // return $posts;
+        return view('post.post-body',compact('posts'));
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Post  $post
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(Post $post)
+    public function edit($id)
     {
         //
     }
@@ -67,10 +69,10 @@ class PostController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Post  $post
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Post $post)
+    public function update(Request $request, $id)
     {
         //
     }
@@ -78,10 +80,10 @@ class PostController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Post  $post
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Post $post)
+    public function destroy($id)
     {
         //
     }
