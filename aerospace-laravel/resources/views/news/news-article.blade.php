@@ -53,7 +53,7 @@
                 <article itemscope="" itemtype="http://schema.org/ItemPage" class="mb-4 col-12">
                    <div class="card card-news flex-md-row">
                    <a title={{$post->title}} href="/news/{{$post->id}}">
-                      <img width="600" height="400" src={{$post->img}} class="card-img-left flex-auto wp-post-image" alt="">        </a>
+                      <img width="600" height="400" src={{post->img}} class="card-img-left flex-auto wp-post-image" alt="">        </a>
                       <div class="card-body d-flex flex-column align-items-start">
                          <div class="card-text">
                             <div class="date"><i class="fa fa-clock-o"></i> <time datetime="2019-07-04" itemprop="datePublished">{{$post->created_at}}</time></div>
