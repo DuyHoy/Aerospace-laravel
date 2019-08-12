@@ -26,7 +26,6 @@ Route::get('/capabilities', function () {
 // Route::get('/carreer', function () {
 //     return view('carreer.carreer-body');
 // });
-
 Route::get('/contactus', function () {
     return view('contactus.contactus-body');
 });

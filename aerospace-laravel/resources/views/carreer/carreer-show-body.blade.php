@@ -4,8 +4,27 @@
 @include('static.navbar')
     
     @include('static.header')
-     
-    @include('carreer.carreer-article')   
+     @switch($id)
+         @case(1)
+         @include('carreer.carreer-show-article1')   
+             @break
+         @case(2)
+         @include('carreer.carreer-show-article2')      
+             @break
+        @case(3)
+         @include('carreer.carreer-show-article3')      
+             @break  
+        @case(4)
+         @include('carreer.carreer-show-article4')      
+             @break       
+        @default
+         @include('carreer.carreer-show-article5')      
+             @break
+        
+             
+     @endswitch
+    
+    
     
     
     @include('static.footer')

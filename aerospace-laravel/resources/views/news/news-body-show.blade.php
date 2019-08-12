@@ -4,7 +4,7 @@
     
     @include('static.header')
      
-    @include('news.news-article')   
+    @include('news.news-show')   
     
     
     @include('static.footer')
