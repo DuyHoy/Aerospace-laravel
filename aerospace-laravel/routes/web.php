@@ -11,10 +11,9 @@
 |
 */
 
-Route::get('/home', 'HomeController@index')->name('home');
-Route::group(['prefix'=>'admin','middleware'=>['auth','admin']],function (){
-Route::get('/', 'AdminController@index')->name('admin_home');
-
+// Route::get('/home', 'HomeController@index')->name('home');
+// Route::group(['prefix'=>'admin','middleware'=>['auth','admin']],function (){
+// Route::get('/', 'AdminController@index')->name('admin_home');
 Route::get('/aboutus', function () {
     return view('frontEnd.aboutus');
 });
@@ -27,25 +26,31 @@ Route::get('/capabilities', function () {
 Route::get('/contactus', function () {
     return view('frontEnd.contactus');
 });
-// Route::get('/', function () {
-//     return view('frontEnd.index');
-// });
-Route::get('/','PostController@index');
+Route::get('/', function () {
+    if (Session::has('locale')) {
+		App::setLocale(Session::get('locale'));
+	}
+    return view('frontEnd.index');
+});
+
+Route::get('/news','PostController@index');
 Route::get('/post-detail/{id}','PostController@detialpost');
 Route::resource('carreer','CarreerController'); 
-// Route::get('/test', function () {
-// //    echo (URL::to('whatwedo.html'));
-// //    echo url()->full();
-// //    echo url('/public','images1');
-// //    echo asset('public');
-// // $contents = Storage::get('');
-// // echo($contents);
-// // echo( asset('storage/images/'));
-// // return view('frontEnd.index');
-// // return view('frontEnd.career');
-// // return view('frontEnd.capabilities');
-// // return view('frontEnd.contactus');
-// // return view('frontEnd.aboutus');
-// // return view('frontEnd.whatwedo');
-// return view('frontEnd.news');
+
+// Route::get('', function () {
+// 	if (Session::has('locale')) {
+// 		App::setLocale(Session::get('locale'));
+// 	}
+// 	// return view('welcome');
+// });
+
+Route::get('language/{locale}', function ($locale) {
+	Session::put('locale', $locale);
+	return redirect()->back();
 });
+
+// Route::get('switchlang/{locale}', function ($locale) { 
+//     \App::setLocale($locale); 
+//     return redirect()->back();
+// });
+// });

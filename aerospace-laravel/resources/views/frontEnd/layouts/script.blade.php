@@ -1,5 +1,5 @@
-<script type="application/ld+json">
-    {
+    <script type="application/ld+json">
+        {
       "@context": "http://schema.org",
       "@type": "Organization",
       "name": "Tj Aerospace Inc.",
@@ -8,9 +8,9 @@
         "telephone": "+1 (714) 891-3564",
         "contactType": "customer service",
         "availableLanguage": "English"
-      }
-    }
- </script>
+         }
+        }
+    </script>
  <script>
     jQuery(function($){
                             try {
@@ -265,7 +265,6 @@
     }
  </script>
  <!-- End MonsterInsights Scroll Tracking -->
- <script type='text/javascript' src='https://tjaerospace.com/wp-content/plugins/block-gallery/dist/js/vendors/flickity.min.js'></script>
  <script type='text/javascript'>
     /* <![CDATA[ */
     var wpcf7 = {"apiSettings":{"root":"https:\/\/tjaerospace.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -294,12 +293,13 @@
     /* ]]> */
  </script>
  <script type='text/javascript' src='https://tjaerospace.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js'></script>
- <script type='text/javascript'>
+ {{-- <script type='text/javascript'>
     /* <![CDATA[ */
     var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_62b5c42e2b519aa9a76b2b391755afb6","fragment_name":"wc_fragments_62b5c42e2b519aa9a76b2b391755afb6","request_timeout":"5000"};
     /* ]]> */
- </script>
+ </script> --}}
  <script type='text/javascript' src='https://tjaerospace.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js'></script>
+ 
  <script type='text/javascript'>
     /* <![CDATA[ */
     var mailchimp_public_data = {"site_url":"https:\/\/tjaerospace.com","ajax_url":"https:\/\/tjaerospace.com\/wp-admin\/admin-ajax.php","queue_url":"https:\/\/tjaerospace.com\/wp-json\/mailchimp-for-woocommerce\/v1\/queue\/work","queue_should_fire":""};
