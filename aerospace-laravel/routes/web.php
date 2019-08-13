@@ -17,15 +17,27 @@
 
 
 Route::get('/aboutus', function () {
+    if (Session::has('locale')) {
+		App::setLocale(Session::get('locale'));
+	}
     return view('frontEnd.aboutus');
 });
 Route::get('/whatwedo', function () {
+    if (Session::has('locale')) {
+		App::setLocale(Session::get('locale'));
+	}
     return view('frontEnd.whatwedo');
 });
 Route::get('/capabilities', function () {
+    if (Session::has('locale')) {
+		App::setLocale(Session::get('locale'));
+	}
     return view('frontEnd.capabilities');
 });
 Route::get('/contactus', function () {
+    if (Session::has('locale')) {
+		App::setLocale(Session::get('locale'));
+	}
     return view('frontEnd.contactus');
 });
 Route::get('/', function () {
@@ -40,6 +52,9 @@ Route::get('/post-detail/{id}','PostController@detialpost');
 Route::resource('carreer','CarreerController'); 
 
 Route::get('language/{locale}', function ($locale) {
-	Session::put('locale', $locale);
+    Session::put('locale', $locale);
+    if (Session::has('locale')) {
+		App::setLocale(Session::get('locale'));
+	}
 	return redirect()->back();
 });

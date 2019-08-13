@@ -1,5 +1,10 @@
 @extends('frontEnd.layouts.master')
 @section('content')
+
+@if (Session::has('locale'))
+{{App::setLocale(Session::get('locale'))}}
+@endif
+
 <article class="post-12 page type-page status-publish has-post-thumbnail hentry" itemscope="" itemtype="http://schema.org/Article">
    <main role="main" class="main">
       <section class="page-title-block">

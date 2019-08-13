@@ -14,7 +14,7 @@ class CarreerController extends Controller
      */
     public function index()
     {
-       
+        
         return view('frontEnd.career');
         //
     }
