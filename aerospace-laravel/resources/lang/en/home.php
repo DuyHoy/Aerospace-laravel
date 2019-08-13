@@ -10,27 +10,42 @@ return [
 'title3-c1'=>'TJ Aerospace promises products of uncompromised quality, delivered on-time and at a competitive price.',
 
 
-'title2'=>'CALL TODAY',
-'title2-c1'=>'SEND A FAX',
-'title2-c2'=>'E-MAIL US',
+// 'title4'=>'High Quality',
+// 'title4-c1'=>'On-Time Delivery',
+// 'title4-c2'=>'Competitive Pricing',
+
+'title4' => 'High Quality',
+  'title4-c1' => 'On-Time',
+  'title4-c2' => 'Delivery',
+  'title4-c3' => 'Competitive Pricing',
  
+'title5'=>'KEY FACTS',
+'title5-c1'=>'QUALITY',
+'title5-c2'=>'ON-TIME DELIVERY',
+'title5-c3'=>'CUSTOMER SATISFACTION',
+'title5-c4'=>'CURRENT OPEN CAPACITY',
 
-'title3'=>'Request Information',
-'title3-c1'=>'Please fill the form below to request any information or a quote.',
-'title3-c2'=>'FIRST NAME',
-'title3-c3'=>'LAST NAME',
-'title3-c4'=>'E-MAIL',
-'title3-c5'=>'PHONE NUMBER',
-'title3-c6'=>'SUBJECT',
-'title3-c7'=>'MESSAGE',
-'title3-c8'=>'ATTACH A FILE (PDF OR DOC)',
-'title3-c9'=>'Drag & Drop Files Here',
-'title3-c10'=>'I Agree to Privacy Policy',
-'title3-c11'=>'SEND MESSAGE',
-'title3-c12'=>'Browse Files',
+'title6'=>'WHO WE ARE',
+'title6-c1'=>'A Smart and Lean CNC Manufacturing Company',
+'title6-c2'=>'TJ Aerospace is a manufacturing shop that specializes in the production of complex, high precision, tight tolerance machined parts and sub-assembly.',
+'title6-c3'=>'ABOUT US',
  
+'title7'=>'WHAT WE DO',
+'title7-c1'=>'Lead in Top-Tier Production Manufacturing',
+'title7-c2'=>'With a strong engineering, manufacturing and quality background, everything from machining to inspection is executed to the highest of industry standards.',
+'title7-c3'=>'OUR PRODUCTS',
 
+'title8'=>'KEY FACTS',
+'title8-c1'=>'PRODUCED PARTS',
+'title8-c2'=>'CLIENT RETURN',
+'title8-c3'=>'WORLDWIDE CUSTOMERS',
+'title8-c4'=>'CUSTOMER SATISFACTION',
 
-
+'title9'=>'NEWS',
+'title9-c1'=>'Latest from TJ Aerospace',
+'title9-c2'=>'TJ Aerospace Purchases Two New Swiss Turn Machines with Bar Feeders',
+'title9-c3'=>'TJ Aerospace Plans CNC Manufacturing Facility Overseas',
+'title9-c4'=>'TJ Aerospace Begins Working With A New Customer Directly',
+'title9-c5'=>'Read More',
 
 ];

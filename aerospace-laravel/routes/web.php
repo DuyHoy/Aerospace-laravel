@@ -14,6 +14,8 @@
 // Route::get('/home', 'HomeController@index')->name('home');
 // Route::group(['prefix'=>'admin','middleware'=>['auth','admin']],function (){
 // Route::get('/', 'AdminController@index')->name('admin_home');
+
+
 Route::get('/aboutus', function () {
     return view('frontEnd.aboutus');
 });
@@ -48,9 +50,3 @@ Route::get('language/{locale}', function ($locale) {
 	Session::put('locale', $locale);
 	return redirect()->back();
 });
-
-// Route::get('switchlang/{locale}', function ($locale) { 
-//     \App::setLocale($locale); 
-//     return redirect()->back();
-// });
-// });
