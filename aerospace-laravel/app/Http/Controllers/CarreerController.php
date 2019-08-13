@@ -14,7 +14,8 @@ class CarreerController extends Controller
      */
     public function index()
     {
-        return view('carreer.carreer-body');
+       
+        return view('frontEnd.career');
         //
     }
 

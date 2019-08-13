@@ -9,7 +9,7 @@
       <html class="no-js lt-ie9" lang="en-US" prefix="og: http://ogp.me/ns#">
          <![endif]-->
          <!--[if gt IE 8]><!-->	
-         <html class="no-js" lang="en" prefix="og: http://ogp.me/ns#">
+         <html class="no-js" lang="{{ str_replace('_', '-', app()->getLocale()) }}" prefix="og: http://ogp.me/ns#">
             <!--<![endif]-->
             <head>
                <meta charset="UTF-8" >
