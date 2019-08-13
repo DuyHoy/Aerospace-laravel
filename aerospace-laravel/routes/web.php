@@ -11,10 +11,13 @@
 |
 */
 
-Route::get('/home', 'HomeController@index')->name('home');
-Route::group(['prefix'=>'admin','middleware'=>['auth','admin']],function (){
-Route::get('/', 'AdminController@index')->name('admin_home');
+// Route::get('/home', 'HomeController@index')->name('home');
+// Route::group(['prefix'=>'admin','middleware'=>['auth','admin']],function (){
+// Route::get('/', 'AdminController@index')->name('admin_home');
 
+Route::get('/',function(){
+    return view('frontEnd.index');
+});
 Route::get('/aboutus', function () {
     return view('frontEnd.aboutus');
 });
@@ -30,7 +33,7 @@ Route::get('/contactus', function () {
 // Route::get('/', function () {
 //     return view('frontEnd.index');
 // });
-Route::get('/','PostController@index');
+Route::get('/news','PostController@index');
 Route::get('/post-detail/{id}','PostController@detialpost');
 Route::resource('carreer','CarreerController'); 
 // Route::get('/test', function () {
@@ -48,4 +51,4 @@ Route::resource('carreer','CarreerController');
 // // return view('frontEnd.aboutus');
 // // return view('frontEnd.whatwedo');
 // return view('frontEnd.news');
-});
+// });
