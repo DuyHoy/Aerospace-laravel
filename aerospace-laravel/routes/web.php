@@ -11,29 +11,41 @@
 |
 */
 
+Route::get('/home', 'HomeController@index')->name('home');
+Route::group(['prefix'=>'admin','middleware'=>['auth','admin']],function (){
+Route::get('/', 'AdminController@index')->name('admin_home');
+
 Route::get('/aboutus', function () {
-    return view('template.aboutus-body');
+    return view('frontEnd.aboutus');
 });
 Route::get('/whatwedo', function () {
-    return view('whatwedo.whatwedo-body');
+    return view('frontEnd.whatwedo');
 });
 Route::get('/capabilities', function () {
-    return view('capabilities.capabilities-body');
+    return view('frontEnd.capabilities');
 });
 Route::get('/contactus', function () {
-    return view('contactus.contactus-body');
+    return view('frontEnd.contactus');
 });
-Route::get('/', function () {
-    return view('home.home-article');
-});
-Route::resource('news','PostController'); 
+// Route::get('/', function () {
+//     return view('frontEnd.index');
+// });
+Route::get('/','PostController@index');
+Route::get('/post-detail/{id}','PostController@detialpost');
 Route::resource('carreer','CarreerController'); 
-Route::get('/test', function () {
-//    echo (URL::to('whatwedo.html'));
-//    echo url()->full();
-   echo url('/public','images1');
-//    echo asset('public');
-// $contents = Storage::get('');
-// echo($contents);
-// echo( asset('storage/images/'));
+// Route::get('/test', function () {
+// //    echo (URL::to('whatwedo.html'));
+// //    echo url()->full();
+// //    echo url('/public','images1');
+// //    echo asset('public');
+// // $contents = Storage::get('');
+// // echo($contents);
+// // echo( asset('storage/images/'));
+// // return view('frontEnd.index');
+// // return view('frontEnd.career');
+// // return view('frontEnd.capabilities');
+// // return view('frontEnd.contactus');
+// // return view('frontEnd.aboutus');
+// // return view('frontEnd.whatwedo');
+// return view('frontEnd.news');
 });

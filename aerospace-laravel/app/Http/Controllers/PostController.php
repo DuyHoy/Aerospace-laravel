@@ -6,89 +6,19 @@ use Illuminate\Http\Request;
 use App\Post;
 class PostController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-        //
-        $posts=Post::all();
-        return view('news.news-body',compact('posts'));
-    }
+    //
+    public function index(){
+    $posts=Post::all();
+    // return view('news.news-body',compact('posts'));
+    return view('frontEnd.news',compact('posts'));
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
     }
-
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
-    {
-        //
-    }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        // echo (asset('storage/images/'));
-        // echo($id->img);
-        // $posts=Post::findOrFail($id);
-        // echo($posts->img);
-        //
-        // $posts=Post::findOrFail($id);
-        // return view('news.news-body-show',compact('posts'));
-        // return $posts;
-        // return view('post.post-body',compact('posts'));
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-        //
+    public function detialpost($id){
+        $post=Post::findOrFail($id);
+        // $imagesGalleries=ImageGallery_model::where('products_id',$id)->get();
+        // $totalStock=ProductAtrr_model::where('products_id',$id)->sum('stock');
+        // $relateProducts=Products_model::where([['id','!=',$id],['categories_id',$detail_product->categories_id]])->get();
+        // return view('frontEnd.post_details',compact('detail_product','imagesGalleries','totalStock','relateProducts'));
+        return view('frontEnd.post_details',compact('post'));
     }
 }
