@@ -10,13 +10,13 @@
                             <h3 class="widget-title">{{trans('footer.title1')}}</h3>
                             <div class="menu-sitemap-container">
                                <ul id="menu-sitemap" class="menu">
-                                  <li id="menu-item-28" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-28"><a href="https://tjaerospace.com/">{{trans('header.title1')}}</a></li>
-                                  <li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2 current_page_item menu-item-34"><a href="https://tjaerospace.com/about-us/" aria-current="page">{{trans('header.title2')}}</a></li>
-                                  <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="https://tjaerospace.com/what-we-do/">{{trans('header.title3')}}</a></li>
-                                  <li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="https://tjaerospace.com/capabilities/">{{trans('header.title4')}}</a></li>
-                                  <li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="https://tjaerospace.com/news/">{{trans('header.title5')}}</a></li>
-                                  <li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a href="https://tjaerospace.com/careers/">{{trans('header.title6')}}</a></li>
-                                  <li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32"><a href="https://tjaerospace.com/contact-us/">{{trans('header.title7')}}</a></li>
+                                  <li id="menu-item-28" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-28"><a href="/aboutus">{{trans('header.title1')}}</a></li>
+                                  <li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2 current_page_item menu-item-34"><a href="/whatwedo" aria-current="page">{{trans('header.title2')}}</a></li>
+                                  <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="/capabilities">{{trans('header.title3')}}</a></li>
+                                  <li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="/news">{{trans('header.title4')}}</a></li>
+                                  <li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="/carreer">{{trans('header.title5')}}</a></li>
+                                  <li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a href="/contactus">{{trans('header.title6')}}</a></li>
+                                  <li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32"><a href="/">{{trans('header.title1')}}</a></li>
                                </ul>
                             </div>
                          </div>
