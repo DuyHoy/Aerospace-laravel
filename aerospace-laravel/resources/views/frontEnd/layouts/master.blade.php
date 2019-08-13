@@ -328,12 +328,12 @@
             <body class="home page-template page-template-page-home page-template-page-home-php page cookies-set cookies-accepted woocommerce-no-js">
                 @include('frontEnd.layouts.navbar')
                 @include('frontEnd.layouts.header')
-              
+               
             @yield('content')
                @include('frontEnd.layouts.footer')
               
                @include('frontEnd.layouts.script')
-               @include('frontEnd.layouts.multilang')
+              
             </body>
          </html>
          

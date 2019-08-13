@@ -6,5 +6,5 @@ return [
     'title4'=>"News",
     'title5'=>"Careers",
     'title6'=>"Contact Us",
-    'title1'=>"Home"
+    'title1'=>"About Us"
 ];

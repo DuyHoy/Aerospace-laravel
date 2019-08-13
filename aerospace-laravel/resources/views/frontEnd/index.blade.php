@@ -1,5 +1,8 @@
 @extends('frontEnd.layouts.master')
 @section('content')
+@if (Session::has('locale')) 
+{{   App::setLocale(Session::get('locale'))}}
+@endif
 <main role="main" class="main">
     <section id="visual">
        <div class="owl-carousel owl-theme" id="visual-carousel">
@@ -130,7 +133,7 @@
           <h5 class="text-uppercase text-primary font-weight-semibold">{{trans('home.title6')}}</h5>
           <h2 class="mb-4">{{trans('home.title6-c1')}}</h2>
           <p class="lead font-weight-normal mb-5">{{trans('home.title6-c2')}}</p>
-          <div class="wp-block-button is-style-squared"><a class="wp-block-button__link" href="http://new.tjaerospace.com/about-us/">{{trans('home.title6-c3')}}</a></div>
+       <div class="wp-block-button is-style-squared"><a class="wp-block-button__link" href="{{url('/about-us')}}">{{trans('home.title6-c3')}}</a></div>
        </div>
     </div>
     <div class="wp-block-media-text alignwide has-media-on-the-right bg-lightgray">
@@ -139,7 +142,7 @@
           <h5 class="text-uppercase text-primary font-weight-semibold">{{trans('home.title7')}}</h5>
           <h2 class="mb-4">{{trans('home.title7-c1')}}</h2>
           <p class="lead font-weight-normal mb-5">{{trans('home.title7-c2')}}</p>
-          <div class="wp-block-button is-style-squared"><a class="wp-block-button__link" href="http://new.tjaerospace.com/what-we-do/">{{trans('home.title7-c3')}}</a></div>
+          <div class="wp-block-button is-style-squared"><a class="wp-block-button__link" href={{url('/whatwedo')}}>{{trans('home.title7-c3')}}</a></div>
        </div>
     </div>
     <section id="keyfactsblock-block_5d2305a68d4af" class="keyfactsblock ">
@@ -179,7 +182,7 @@
                 </div>
                 <div class="card-body">
                    <div class="date"><i class="fa fa-clock-o"></i> <time datetime="2019-07-15" itemprop="datePublished">July 15, 2019</time></div>
-                   <h4 class="h5 font-weight-bold"><a href="https://tjaerospace.com/news/tj-aerospace-updates-its-website/">{{trans('home.title9-c2')}}</a></h4>
+                   <h4 class="h5 font-weight-bold"><a href="{{url('/post-detail',$id=1)}}">{{trans('home.title9-c2')}}</a></h4>
                 </div>
                 <div class="card-footer">
                    <a title="TJ Aerospace Updates Its Website" class="read-more" href="https://tjaerospace.com/news/tj-aerospace-updates-its-website/"><span>{{trans('home.title9-c5')}}</span> <i class="fa fa-angle-right"></i></a>
@@ -192,7 +195,7 @@
                 </div>
                 <div class="card-body">
                    <div class="date"><i class="fa fa-clock-o"></i> <time datetime="2019-07-10" itemprop="datePublished">July 10, 2019</time></div>
-                   <h4 class="h5 font-weight-bold"><a href="https://tjaerospace.com/news/tj-aerospace-begins-installation-of-their-two-new-swiss-turn-machines-and-bar-feeders/">{{trans('home.title9-c3')}}</a></h4>
+                <h4 class="h5 font-weight-bold"><a href="{{url('/post-detail',$id=1)}}">{{trans('home.title9-c3')}}</a></h4>
                 </div>
                 <div class="card-footer">
                    <a title="TJ Aerospace Begins Installation of Their Two New Swiss Turn Machines and Bar Feeders" class="read-more" href="https://tjaerospace.com/news/tj-aerospace-begins-installation-of-their-two-new-swiss-turn-machines-and-bar-feeders/"><span>{{trans('home.title9-c5')}}</span> <i class="fa fa-angle-right"></i></a>
@@ -205,10 +208,10 @@
                 </div>
                 <div class="card-body">
                    <div class="date"><i class="fa fa-clock-o"></i> <time datetime="2019-07-08" itemprop="datePublished">July 8, 2019</time></div>
-                   <h4 class="h5 font-weight-bold"><a href="https://tjaerospace.com/news/tj-aerospace-continues-working-on-its-cnc-manufacturing-facility-in-vietnam/">{{trans('home.title9-c4')}}</a></h4>
+                   <h4 class="h5 font-weight-bold"><a href="{{url('/post-detail',$id=2)}}">{{trans('home.title9-c4')}}</a></h4>
                 </div>
                 <div class="card-footer">
-                   <a title="TJ Aerospace Continues Working On Its CNC Manufacturing Facility In Vietnam" class="read-more" href="https://tjaerospace.com/news/tj-aerospace-continues-working-on-its-cnc-manufacturing-facility-in-vietnam/"><span>{{trans('home.title9-c5')}}</span> <i class="fa fa-angle-right"></i></a>
+                   <a title="TJ Aerospace Continues Working On Its CNC Manufacturing Facility In Vietnam" class="read-more" href="{{url('/post-detail',$id=3)}}"><span>{{trans('home.title9-c5')}}</span> <i class="fa fa-angle-right"></i></a>
                 </div>
              </div>
           </div>

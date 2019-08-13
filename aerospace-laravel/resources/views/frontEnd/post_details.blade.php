@@ -8,7 +8,7 @@
              <div class="container mb-3 mb-md-5">
                 <div class="row">
                    <div class="col-md-6">
-                      <a class="text-uppercase lead font-weight-semibold" href={{url('/')}}>Back to all News</a>
+                      <a class="text-uppercase lead font-weight-semibold" href={{url('/news')}}>Back to all News</a>
                    </div>
                 </div>
              </div>

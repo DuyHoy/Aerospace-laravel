@@ -1,5 +1,6 @@
 <?php
 
+use App\Post;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,34 +18,25 @@
 
 
 Route::get('/aboutus', function () {
-    if (Session::has('locale')) {
-		App::setLocale(Session::get('locale'));
-	}
+    
     return view('frontEnd.aboutus');
 });
 Route::get('/whatwedo', function () {
-    if (Session::has('locale')) {
-		App::setLocale(Session::get('locale'));
-	}
+   
     return view('frontEnd.whatwedo');
 });
 Route::get('/capabilities', function () {
-    if (Session::has('locale')) {
-		App::setLocale(Session::get('locale'));
-	}
+    
     return view('frontEnd.capabilities');
 });
 Route::get('/contactus', function () {
-    if (Session::has('locale')) {
-		App::setLocale(Session::get('locale'));
-	}
+    
     return view('frontEnd.contactus');
 });
 Route::get('/', function () {
-    if (Session::has('locale')) {
-		App::setLocale(Session::get('locale'));
-	}
-    return view('frontEnd.index');
+	$posts=Post::all();
+    
+    return view('frontEnd.index',compact('posts'));
 });
 
 Route::get('/news','PostController@index');
